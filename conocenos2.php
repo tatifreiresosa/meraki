@@ -31,17 +31,21 @@
 						<p>Somos una compañía que fabrica, importa y comercializa productos creados con materiales o procesos que contribuyan al medio ambiente. Buscamos la disminución de materiales dañinos para el medio ambiente en la vida cotidiana, reemplazándolos por materiales biodegradables y/o ecológicos.</p>
 					<h3>Visión</h3>
 						<p>Poner a disposición de la sociedad todos los productos necesarios para satisfacer sus necesidades, ofreciendo productos creados con materiales o procesos que aporten al medio ambiente.</p>
+
 					<h3>Valores</h3>
 						<p> Primero el planeta, conciencia ecológica,trabajo en equipo y decisiones a largo plazo <br>
 						</p>
 					<h3>El problema del plástico</h3>
+					<img class="img-vision" src="grafica/IMG_0094-baja.jpg">
 					<p> El plástico es un material NO biodegradable. ¿Qué significa esto? <br>
 							Que nunca se descompone en el entorno de la naturaleza, sino que se van fragmentando en trozos más chiquitos que forman y acumulan sustancias toxicas.<br>
 							Por año <strong>25 millones de toneladas </strong> de plástico se liberan en el ambiente. Esto queda inalterable entre 100 a 500 años. Utilizar masivamente un material tan duradero para objetos desechables es un error de consecuencias incalculables a nivel global. <br>
 							La contaminación por plásticos no es un problema solo de gestión de residuos, sino de mal diseño. La solución que buscamos introducir es la utilización de materiales biodegradables.
 					</p>
 
+
 					<h3>¿Es lo mismo un material biodegradable que uno ecológico?</h3>
+						<img class="img-vision" src="grafica/toothbrush-baja.jpg">
 						<p>
 							Un material biodegradable significa que puede ser descompuesto o desintegrado en poco tiempo por organismos vivientes, y ser reintroducido dentro de los ciclos de los nutrientes en la naturaleza. <br>
 							Por su parte, los materiales ecológicos son aquellos que, debido a su diseño, composición de sus materias primas, modo de empleo, vida útil y demás características, tienen un impacto menos negativo (o neutro) sobre el medio ambiente y pueden ser, una vez desechados y reinsertados en la naturaleza. <br>
