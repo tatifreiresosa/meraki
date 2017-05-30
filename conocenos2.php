@@ -58,7 +58,7 @@
 				<div class="comprar">
 					<a href="http://articulo.mercadolibre.com.ar/MLA-662052914-cepillo-de-dientes-ecologicos-de-bambu-_JM#eshop_TODOMUSICA92">COMPRAR</a>
 				</div>
-			</div>
+	</div>
     </div>
 	</div>
     <?php include 'footer2.php'; ?>

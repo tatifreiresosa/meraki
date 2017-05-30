@@ -3,6 +3,8 @@
 <head>
 	<title>Inicio- Meraki</title>
   <?php include('estilos.php') ?>
+
+
   
 </head>
 <body>
@@ -18,26 +20,60 @@
     <div class="row Fotitos">
       <div class="col-md-offset-2"></div>
       <div class="col-md-3">
+<div class="container">
+            <div class="div-1-home">
+                <div class="imagen-div-home">
+                </div>
+                  <h3>Conocenos</h3>
+                  <p>Conocé más sobre lo que promovemos</p> 
+                  <div class="info-home">
+                    <p>+ info</p>  
+                  </div>              
+                </div>        
+            </div>
         
+            <div class="div-2-home">
+                <div class="imagen-div-home">
+                  <img src="grafica/meraki-1-baja.jpg">
+                </div>
+
+                <div class="texto-div-home">
+                  <h3>Sobre el cepillo</h3>
+                  <p>Enterate de las formas de aplicacion y como reutilizar el cepillo</p>
+                  <div class="info-home">
+                     <p>+ info</p>  
+                  </div>   
+                </div>
+            </div>     
+       
+
       </div>
-      <div class="col-md-offset-2"></div>
-      <div class="col-md-3">
-        
+
+      <div class="row carrusel">
+        <img src="grafica/Meraki---Cepillo-baja.jpg">        
       </div>
-      <div class="col-md-offset-2"></div>
-    </div>
-    <div class="row ">
-        <div class="col-md-offset-3"></div>
-        
-        <div class="col-md-offset-3"></div>
-    </div>
-    <div class="row Comunidad"> 
-        <div class="col-md-offset-3"></div>
-        <div class="col-md-6"></div>
-        <div class="col-md-offset-3"></div>
-    </div>
+
+      <div class="row comunidad">
+        <div class="imagen-comunidad">
+          <img src="grafica/comunidad.jpg">   
+        </div> 
+
+        <div class="texto-comunidad">
+          <h3>Comunidad</h3>
+          <p>Hacé click aquí para conocer además quiénes están realizando proyectos sustentables.</p>
+          <div class="info-home">
+            <p>+ info</p>  
+          </div>        
+        </div> 
+      </div>
 </div>
 
+
+
+
+	
+      
+    
 
 <?php include 'footer2.php'; ?>
 

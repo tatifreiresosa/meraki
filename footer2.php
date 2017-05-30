@@ -3,7 +3,6 @@
     <div class="row">
       <h5 style="font-family: 'Poiret One', cursive;">Contacto</h5>
       <ul style="font-family: 'Poiret One', cursive; font-weight:bold">
-          <li style="font-family: 'Poiret One', cursive; font-weight:bold"><a href="#">1234-5678</a></li>
           <li style="font-family: 'Poiret One', cursive;"><a href="#">contacto@meraki-home.com</a></li>
       </ul>
     </div>
