@@ -1,0 +1,293 @@
+/* Estilos main
+Resets heredados de Bootstrap
+======================================= */
+
+/* Tipografía títulos*/
+
+@font-face {
+    font-family: 'maxwell_boldregular';
+    src: url('../fuentes/maxwellbold-webfont.woff2') format('woff2'),
+         url('../fuentes/maxwellbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Tipografia cuerpo*/
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'maxwell_boldregular', sans-serif;
+  text-transform: uppercase;
+}
+
+
+/*
+BODY
+============= */
+.header-container {
+  width: 100%
+}
+.logo {
+  min-height: 315px;
+  background-image: url(../images/bambu-header.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.main-menu {
+  background-color: #5D2404;
+}
+
+.main-menu li {
+  font-size: 18px;
+  text-transform: uppercase;
+  list-style-type: none;
+  float: left;
+}
+.main-menu li a {
+  color: #fff;
+  font-family: 'maxwell_boldregular', sans-serif;
+  display: block;
+}
+.main-menu .navbar-left li:first-child a {
+  padding-left: 0;
+}
+.main-menu li a:hover,
+.main-menu li a:active {
+  background-color:initial;
+  color: #80b83f;
+}
+
+.cart li {
+  background-color: #80b83f;
+}
+.cart li a:hover {
+  color: #5d2408;
+}
+
+
+/* MAIN HOME
+===================*/
+.main-container {
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+}
+.main {
+  overflow: hidden;
+}
+.claim {
+  text-align: center;
+  margin: 90px 0;
+}
+.claim img {
+  margin: 0 auto;
+}
+.slider {
+  margin: 20px 0;
+  border-bottom: 2px solid #808080;
+  padding-bottom: 50px;
+}
+
+.shortcut {
+  position: relative;
+  margin-bottom: 30px;
+}
+.shortcut-small {
+  background: #E7E3DE;
+  padding: 15px;
+}
+.shortcut-small img,
+.shortcut-main img {
+  width: 100%;
+}
+.shortcut-small h3,
+.shortcut-main h3,
+.footer h3 {
+  border-bottom: 2px solid #006837;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.shortcut-main h3 {
+  font-size: 40px;
+  margin-top: 0px;
+  border-bottom: 4px solid #006837;
+}
+.shortcut .more-container,
+.left-column .more-container {
+  position: relative;
+}
+.shortcut .more,
+.left-column .more {
+  position: absolute;
+  right: 42%;
+  bottom: -30px;
+  font-family: 'maxwell_boldregular', sans-serif;
+  font-size: 17px;
+  padding: 2px 10px;
+  background: #339A6A;
+  color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.shortcut .more:hover,
+.more-container .more {
+  text-decoration: none;
+}
+.shortcut-main {
+  border-bottom: 2px solid #808080;
+  padding-bottom: 30px;
+}
+.shortcut-main .more-container {
+  margin-top: 20px;
+}
+.shortcut-main .more {
+  position: static;
+  padding: 4px 40px;
+}
+
+/* MAIN CONOCENOS
+===================*/
+.conocenos {
+  margin-top: 30px;
+}
+.conocenos h1,
+.conocenos h2 {
+  border-bottom: 4px solid #006837;
+  display: inline-block;
+}
+.conocenos .left-column h3 {
+  color: #fff;
+  background: #006837;
+  text-align: center;
+  padding: 7px 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+aside {
+  width: 180px;
+  overflow: visible;
+}
+.left-column {
+  float: left;
+}
+.left-column .aside-container {
+  background: #E7E3DE;
+  padding: 10px 10px 6px;
+  text-align: center;
+  padding-bottom: 22px;
+}
+.left-column p {
+  line-height: normal;
+  font-size: 12px;
+}
+.right-column {
+  float: right;
+  margin-top: 20px;
+}
+.right-column img {
+  background: #E7E3DE;
+  padding: 3px;
+}
+.right-column .more-container {
+  background: #339A6A;
+  text-transform: uppercase;
+  text-align: center;
+}
+.right-column .more {
+  color: #fff;
+  display: inline-block;
+  padding: 2px 0;
+  font-family: 'maxwell_boldregular', sans-serif;
+  font-size: 19px;
+}
+.left-column .more {
+  display: block;
+  right: 20px;
+  bottom: -35px;
+}
+.img-mision {
+  float: right;
+  margin-top: 20px;
+  padding: 0 0 15px 15px;
+}
+
+/* MAIN PRODUCTO
+===================*/
+.producto .left-column .aside-container {
+  padding-bottom: 10px;
+}
+.producto .left-column .more-container {
+  margin-top: 5px;
+}
+.producto .left-column .more {
+  position: static;
+  display: block;
+}
+
+.slider-title {
+  margin-bottom: 0;
+  background: #339A6A;
+  color: #fff;
+  text-align: center;
+  padding: 4px 0;
+}
+.producto .slider {
+  margin-top: 0;
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+/* FOOTER
+===================*/
+.footer {
+  background: #339A6A;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.footer h3 {
+  border-bottom: 2px solid #fff;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.footer a {
+  color: #fff;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+.footer .fa-envelope-o {
+  margin-right: 10px;
+}
+.footer .social {
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.footer li {
+  list-style-type: none;
+  float: left;
+}
+.footer .fa-stack-1x {
+  color: #339A6A;
+}
