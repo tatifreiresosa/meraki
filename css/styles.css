@@ -255,6 +255,32 @@ aside {
   padding-bottom: 0;
 }
 
+.subtitle-product {
+  font-size: 20px;
+}
+
+.ul-producto li {
+  font-family: 'maxwell_boldregular', sans-serif;
+  list-style: none;
+  font-size: 18px;
+  display: inline-block;
+  border-bottom: 2px solid #006837;
+}
+
+.ul-producto li p {
+  text-align: justify;
+}
+
+/* MAIN CONTACTO
+============= */
+
+.instagram img ,
+.facebook img {
+  size: 30px;
+}
+
+
+
 
 /* FOOTER
 ===================*/
