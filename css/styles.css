@@ -111,6 +111,7 @@ BODY
 .shortcut-small {
   background: #E7E3DE;
   padding: 15px;
+  min-height: 300px;
 }
 .shortcut-small img,
 .shortcut-main img {
@@ -131,13 +132,20 @@ BODY
 }
 .shortcut .more-container,
 .left-column .more-container {
-  position: relative;
+  overflow: visible;
+  position: absolute;
+  left: 50%;
+  bottom: -11px;
+  -webkit-transform: translate(-50%);
+  transform: translateX(-50%);
+}
+.left-column .more-container {
+  transform: none;
+  left: 16%;
+  bottom: -13px;
 }
 .shortcut .more,
 .left-column .more {
-  position: absolute;
-  right: 42%;
-  bottom: -30px;
   font-family: 'maxwell_boldregular', sans-serif;
   font-size: 17px;
   padding: 2px 10px;
@@ -156,6 +164,7 @@ BODY
 }
 .shortcut-main .more-container {
   margin-top: 20px;
+  position: relative;
 }
 .shortcut-main .more {
   position: static;
@@ -188,6 +197,7 @@ aside {
   float: left;
 }
 .left-column .aside-container {
+  position: relative;
   background: #E7E3DE;
   padding: 10px 10px 6px;
   text-align: center;
@@ -198,12 +208,13 @@ aside {
   font-size: 12px;
 }
 .right-column {
-  float: right;
+  float: left;
   margin-top: 20px;
 }
 .right-column img {
   background: #E7E3DE;
   padding: 3px;
+  width: 100%;
 }
 .right-column .more-container {
   background: #339A6A;
@@ -219,13 +230,19 @@ aside {
 }
 .left-column .more {
   display: block;
-  right: 20px;
-  bottom: -35px;
 }
-.img-mision {
+.section-container {
+  
+}
+.img-mision,
+.img-question {
   float: right;
   margin-top: 20px;
   padding: 0 0 15px 15px;
+  width: 135px;
+}
+.img-question {
+  width: auto;
 }
 
 /* MAIN PRODUCTO
