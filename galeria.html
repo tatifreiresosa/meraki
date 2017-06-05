@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="css/gallery-grid.css"><!--plugin Galeria grid-->
+    <link rel="stylesheet" href="css/baguetteBox.min.css"><!--plugin Galeria-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/favicon.ico">
     <title>Galeria - Meraki Home</title>
@@ -54,7 +56,55 @@
           <div class="col-md-8">
             <section class="section-container">
               <h1>Galeria</h1>
-              <!-- TODO: galeria js -->
+              <div class="tz-gallery">
+               <div class="row">
+                 <div class="col-sm-6 col-md-4">
+                     <a class="lightbox" href="grafica/meraki-1-baja.jpg">
+                         <img class="foto-galeria" src="grafica/meraki-1-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+                 <div class="col-sm-6 col-md-4">
+                     <a class="lightbox" href="grafica/meraki-2-baja.jpg">
+                         <img class="foto-galeria" src="grafica/meraki-2-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+                 <div class="col-sm-12 col-md-4">
+                     <a class="lightbox" href="grafica/meraki-3-baja.jpg">
+                         <img class="foto-galeria" src="grafica/meraki-3-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+                 <div class="col-sm-6 col-md-4">
+                     <a class="lightbox" href="grafica/Meraki---Cepillo2-baja.jpg">
+                         <img  class="foto-galeria" src="grafica/Meraki---Cepillo2-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+                 <div class="col-sm-6 col-md-4">
+                     <a class="lightbox" href="grafica/Meraki---Cepillo-baja.jpg">
+                         <img  class="foto-galeria" src="grafica/Meraki---Cepillo-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+                 <div class="col-sm-6 col-md-4">
+                     <a class="lightbox" href="grafica/IMG_0094-baja.jpg">
+                         <img class="foto-galeria" src="grafica/IMG_0094-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+                 <div class="col-sm-6 col-md-4">
+                     <a class="lightbox" href="grafica/meraki-1-baja.jpg">
+                         <img class="foto-galeria" src="grafica/meraki-1-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+                 <div class="col-sm-6 col-md-4">
+                     <a class="lightbox" href="grafica/toothbrush-baja.jpg">
+                         <img class="foto-galeria" src="grafica/toothbrush-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+                 <div class="col-sm-6 col-md-4">
+                     <a class="lightbox" href="grafica/meraki-2-baja.jpg">
+                         <img class="foto-galeria" src="grafica/meraki-2-baja.jpg" alt="Meraki Home">
+                     </a>
+                 </div>
+               </div>
+             </div>
             </section>
           </div>
           <aside class="right-column">
@@ -92,5 +142,9 @@
         </div>
       </div>
     </div>
+    <script src="js/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
   </body>
 </html>
