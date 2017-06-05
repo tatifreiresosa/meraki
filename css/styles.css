@@ -97,6 +97,7 @@ BODY
 .main-container {
   padding-bottom: 60px;
   margin-bottom: 20px;
+  min-height: 500px;
 }
 .main {
   overflow: hidden;
