@@ -363,5 +363,9 @@ aside {
   }
   .navbar-left li{
     width: 100%;
+  }
+  .menu-oculto{
+    display: none;
+  }
 
 }
