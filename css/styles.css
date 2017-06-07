@@ -81,12 +81,23 @@ BODY
   color: #5d2408;
 }
 
+.cart .menu-mobile {
+  background: none;
+}
+.cart .mobile {
+  color: #fff;
+  font-size: 18px;
+  padding: 13px;
+  margin-right: 10px;
+  display: none;
+}
 
 /* MAIN HOME
 ===================*/
 .main-container {
   padding-bottom: 60px;
   margin-bottom: 20px;
+  min-height: 500px;
 }
 .main {
   overflow: hidden;
@@ -232,7 +243,7 @@ aside {
   display: block;
 }
 .section-container {
-  
+
 }
 .img-mision,
 .img-question {
@@ -281,7 +292,7 @@ aside {
   list-style: none;
   font-size: 18px;
   display: inline-block;
-  border-bottom: 2px solid #006837;
+  /*border-bottom: 2px solid #006837;*/
 }
 
 .ul-producto li p {
@@ -291,12 +302,9 @@ aside {
 /* MAIN CONTACTO
 ============= */
 
-.instagram img ,
-.facebook img {
-  size: 30px;
+.section-personas {
+  margin-bottom: 20px;
 }
-
-
 
 
 /* FOOTER
@@ -334,40 +342,26 @@ aside {
 .footer .fa-stack-1x {
   color: #339A6A;
 }
- .hamburguesa {
-    display: none;
-  }
+
 
 
 /* RESPONSIVE
 ===================*/
-
-
-
-@media (max-width: 768px) {
-
-  .left-column , .right-column{
+@media (max-width: 767px) {
+  .cart .mobile {
+    display: block;
+  }
+  .left-column,
+  .right-column{
     display: none;
   }
-
-  .main-menu{
-    display: none;
+  .navbar-left{
+    /*display: none;*/
   }
-
-
   .hamburguesa {
     display: block;
   }
-
   .navbar-left li{
     width: 100%;
-   
 
 }
-
-
-
-
-
-
-
