@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Inicio- Meraki</title>
-  <?php include('estilos.php') ?>
+  <?php include 'estilos.php'; ?>
 
 
   
@@ -11,19 +11,19 @@
 
 	<?php include 'header2.php'; ?>
 
-	<div class="container">
-    <div class="row Imagen principal">
-      <div class="col-sm-offset-3"></div>
-      <div align="center" class="col-sm-6"><img class="img-responsive" class="frase" src="grafica/frase.png" alt="" style="margin: 10px;"></div>
-      <div class="col-sm-offset-3"></div>
-    </div>
-    <div class="row Fotitos">
-      <div class="col-md-offset-2"></div>
-      <div class="col-md-3">
+
 <div class="container">
+        <div class="frase">
+          <img src="grafica/frase.png" alt="Meraki Home">    
+        </div>
+
+        <div class=" row divs-home">
             <div class="div-1-home">
                 <div class="imagen-div-home">
+                  <img src="grafica/Meraki-2-baja.jpg"> 
                 </div>
+              
+                <div class="texto-div-home">
                   <h3>Conocenos</h3>
                   <p>Conocé más sobre lo que promovemos</p> 
                   <div class="info-home">
