@@ -342,6 +342,9 @@ aside {
 .footer .fa-stack-1x {
   color: #339A6A;
 }
+.menu-oculto{
+  display: block;
+}
 
 
 
