@@ -13,7 +13,7 @@
     <title>Galeria - Meraki Home</title>
   </head>
   <body>
-    <div class="container header-container">
+   <div class="container header-container">
       <div class="row">
         <div class="header">
           <div class="logo">
@@ -23,16 +23,18 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                  <ul class="row nav navbar-left">
+                  <ul class="nav navbar-right cart">
+                    <li class="menu-mobile"><i class="fa fa-bars mobile"></i></li>
+                    <li><a href="http://articulo.mercadolibre.com.ar/MLA-662052914-cepillo-de-dientes-ecologicos-de-bambu-_JM"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <ul class="row nav navbar-left menu-oculto">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="conocenos.html">Conocenos</a></li>
                     <li><a href="producto.html">Producto</a></li>
                     <li><a href="galeria.html">Galeria</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                   </ul>
-                  <ul class="nav navbar-right cart">
-                    <li><a href="http://articulo.mercadolibre.com.ar/MLA-662052914-cepillo-de-dientes-ecologicos-de-bambu-_JM"><i class="fa fa-shopping-cart"></i></a></li>
-                  </ul>
+                  
                 </div>
               </div>
             </div>
@@ -58,7 +60,7 @@
               <div class="tz-gallery">
                <div class="row">
                  <div class="col-sm-6 col-md-4">
-                     <a class="lightbox" href="galeria/meraki-1-baja.jpg">
+                     <a class="lightbox" href="images/meraki-1-baja.jpg">
                          <img class="foto-galeria" src="galeria/meraki-1-baja.jpg" alt="Meraki Home">
                      </a>
                  </div>
@@ -141,6 +143,7 @@
         </div>
       </div>
     </div>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="js/baguetteBox.min.js"></script>
     <script>
         baguetteBox.run('.tz-gallery');

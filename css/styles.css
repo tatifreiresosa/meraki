@@ -347,7 +347,6 @@ aside {
 }
 
 
-
 /* RESPONSIVE
 ===================*/
 @media (max-width: 767px) {
@@ -370,5 +369,8 @@ aside {
   .menu-oculto{
     display: none;
   }
+  .main-menu .navbar-left li:first-child a {
+  padding-left: 15px;
+}
 
 }
