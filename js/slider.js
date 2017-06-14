@@ -4,4 +4,4 @@ $(document).ready(function(){
 });
 
 //Galeria
-baguetteBox.run('.tz-gallery');
+//baguetteBox.run('.tz-gallery');
