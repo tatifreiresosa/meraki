@@ -64,6 +64,7 @@ BODY
   color: #fff;
   font-family: 'maxwell_boldregular', sans-serif;
   display: block;
+  text-align: center;
 }
 .main-menu .navbar-left li:first-child a {
   padding-left: 0;
@@ -306,6 +307,10 @@ aside {
   margin-bottom: 20px;
 }
 
+.mapa-meraki {
+  padding: 30px;
+  float: left;
+}
 
 /* FOOTER
 ===================*/
